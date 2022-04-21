@@ -1,0 +1,123 @@
+header,
+main, 
+footer {
+    font-family: 'Poppins', sans-serif;
+}
+
+.white-header {
+    background-color: rgb(255, 254, 254);
+    color: black;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.white-header img {
+    height: 40px;
+}
+
+.white-header a {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    margin: 0 20px;
+    font-size: 12px;
+}
+
+.white-header a:hover {
+    color: rgb(173, 5, 252);
+}
+
+span {
+    color: rgb(250, 17, 242);
+}
+
+.top {
+    /* height: 25%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-left {
+    padding: 64px;
+}
+.top-left h1 {
+    font-size: 50px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(250, 17, 242);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: small;
+}
+button:hover {
+    background-color: rgb(250, 17, 242);
+    color: rgb(249, 246, 250);
+}
+
+#gradient {
+    height: 200px;
+    background-color: red; 
+    background-image: linear-gradient(to right, rgb(212, 11, 212),red , rgb(114, 245, 7));
+    border-radius: 25px;
+    border: 2px solid transparent;
+    margin: 20px;
+    padding: 40px;
+
+}
+#gradient h3 {
+
+
+}
+.logo-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+
+            
+/* .left-side {
+    display: flex;
+    align-items: center;
+    color: black;
+} */
+
+/* 
+.burger {
+    height: 10px;
+    width: 10px;
+    float: right;
+    display: none;
+} */
+
+/* .white-header a {
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    float: right;
+    text-align: center;
+    margin: 0 12px;
+    align-items: baseline;
+} */
+
+
+
+ /* @media screen and (min-width: 768px) {
+    .nav-side {
+            display: none;
+        }
+
+        .burger {
+            height: 5px;
+            float: right;
+        } */
+        /* display:flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 0 20px; */
+    /* } */
